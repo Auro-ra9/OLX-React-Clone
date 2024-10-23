@@ -17,6 +17,8 @@ const  Cards = ({name,description,image,price}:CardType) => {
         <h1>&#8377;{price}</h1>
         <p className='truncate'>
           {name}
+        </p>
+        <p className='truncate'>
           {description}
         </p>
       </div>
